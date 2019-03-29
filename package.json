@@ -1,0 +1,71 @@
+{
+   "dependencies": {
+      "base64-js": "^1.2.0",
+      "bluebird": "^3.4.6",
+      "fetch": "^1.1.0",
+      "moment": "^2.17.1",
+      "moment-timezone": "^0.5.11",
+      "uuid": "^3.1.0",
+      "xmldom": "^0.1.22"
+    },
+    "description": "EWS Managed api in JavaScript",
+    "devDependencies": {
+      "@types/chai": "^3.4.34",
+      "@types/chai-as-promised": "0.0.29",
+      "@types/gulp": "^4.0.3",
+      "@types/mocha": "^2.2.32",
+      "@types/moment-timezone": "^0.2.34",
+      "@types/node": "^7.0.18",
+      "@types/uuid": "^2.0.29",
+      "almond": "^0.3.3",
+      "chai": "^3.5.0",
+      "chai-as-promised": "^6.0.0",
+      "debug": "^4.0.1",
+      "del": "^2.2.2",
+      "gulp": "^3.9.1",
+      "gulp-concat": "^2.6.0",
+      "gulp-delete-lines": "0.0.7",
+      "gulp-if": "^2.0.1",
+      "gulp-load-plugins": "^1.4.0",
+      "gulp-mocha": "^3.0.1",
+      "gulp-nodemon": "^2.2.1",
+      "gulp-replace": "^0.5.4",
+      "gulp-task-listing": "^1.0.1",
+      "gulp-typedoc": "^2.0.0",
+      "gulp-uglify": "^2.0.0",
+      "gulp-useref": "^3.1.2",
+      "gulp-util": "^3.0.7",
+      "mocha": "^3.4.2",
+      "node-notifier": "^4.6.1",
+      "q": "^1.4.1",
+      "r": "^0.0.5",
+      "typedoc": "^0.5.1",
+      "typescript": "^2.3.4",
+      "yargs": "^6.3.0"
+    },
+    "license": "MIT",
+    "main": "js/ExchangeWebService.js",
+    "maintainers": [
+      {
+        "name": "faruk",
+        "email": "tulumcufaruk@gmail.com"
+      }
+    ],
+    "name": "ews-javascript-api",
+    "optionalDependencies": {
+      "bluebird": "^3.4.6",
+      "fetch": "^1.1.0"
+    },
+    "readme": "ERROR: No README data found!",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Faruktulumcu/ews-javascript-api.git"
+    },
+    "scripts": {
+      "npmprep": "gulp build && gulp build-typedef && gulp npm-prep && npm version",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "typings": "typings/ExchangeWebService.d.ts",
+    "version": "0.9.4"
+  }
+  
